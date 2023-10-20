@@ -112,6 +112,8 @@ list(
   flip_op.cc
   quantize_linear_op.cc
   dequantize_linear_op.cc
+  token_merge_op.cc
+  token_unmerge_op.cc
   share_data_op.cc)
 
 if(${TENSORRT_MAJOR_VERSION} GREATER_EQUAL 7)
